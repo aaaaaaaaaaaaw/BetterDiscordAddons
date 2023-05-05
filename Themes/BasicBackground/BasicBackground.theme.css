@@ -32,7 +32,7 @@
 	--background:					url(https://dub01pap003files.storage.live.com/y4m495FlOpIxG3j970JwD-01GlS_nD5tQwSbnUCMDNiUJmvzsYDdo2r1ZHp3SB_7XzlIqAn_IjuLmS3K1lvpGI1v3iA_lOinOgf57P-c4BSoKsd2fiG6S-foaTWBzjMjmii4N_d5PE2O63b85BNAGBfEN-5ULZ_O5xJVhyWF78Z-1NdxpSlUfaUxx9y4SNqLae8vcye96R0lMEo7ABfl8ktMzNojJ8NpjQnPkVm7Dxh8fI?encodeFailures=1&width=1356&height=899);	/* general background image				*/
 	--backgroundposition:			center;						/* default: center				(position of background - values: [center/top/right/bottom/left])				*/
 	--backgroundsize:				cover;						/* default: cover				(sizefit of background - values: [cover/contain/auto])							*/
-	--backgroundblur:				unset;						/* default: unset				(blur in px, only works when --background is set to an image)					*/
+	--backgroundblur:				15;						/* default: unset				(blur in px, only works when --background is set to an image)					*/
 	
 	--popout:						var(--background);			/* default: var(--background)	(change to use another background/color for modals/popouts)						*/
 	--popoutposition:				var(--backgroundposition);	/* default: center				(position of popout - values: [center/top/right/bottom/left])					*/
